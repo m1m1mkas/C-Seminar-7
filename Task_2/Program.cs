@@ -3,11 +3,11 @@ Console.Write("Введите строку:");
 int pos1 = Convert.ToInt32(Console.ReadLine()) - 1;
 Console.Write("Введите столбец:");
 int pos2 = Convert.ToInt32(Console.ReadLine()) - 1;
-int n = 5; // размер массива
-int m = 7; // размер массива
+int n = 5; 
+int m = 7; 
 Random random = new Random();
 int[,] arr = new int[n, m];
-Console.WriteLine("Исходный массив:");
+Console.WriteLine("Массив:");
 for (int i = 0; i < arr.GetLength(0); i++)
 {
     for (int j = 0; j < arr.GetLength(1); j++)
